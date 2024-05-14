@@ -75,7 +75,7 @@ header .navbar {
 }
 .navbar-toggler {
     color: rgb(255, 255, 255);
-    background-color: #0874bd;
+    background-color: #c8a16b;
 }
 header .navbar .navbar-nav li .nav-link {
     width: fit-content;
@@ -86,11 +86,11 @@ header .navbar .navbar-nav li .nav-link {
     display: inline-block;
 }
 header .navbar .navbar-nav li .nav-link:hover {
-    color: #0874bd;
+    color: #c8a16b;
     opacity: .8;
 }
 header .navbar ul li .nav-link.active {
-    color: #0874bd;
+    color: #c8a16b;
 }
 header .navbar .link-btn {
     margin-left: auto;
@@ -107,7 +107,7 @@ header .navbar .link-btn {
     bottom: 0;
     width: 100%;
     height: 5px;
-    border-block: 1px solid #0874bd;
+    border-block: 1px solid #c8a16b;
     transform: scaleX(0.2);
     opacity: 0;
     transition: 0.75sec;
@@ -207,6 +207,9 @@ header .navbar .link-btn {
     font-size: 1.1rem;
     line-height: 1.5;
 }
+.milenia-aligner-inner {
+    padding: 20px;
+}
 .txt15 {
     font-size: 15px;
 }
@@ -214,7 +217,8 @@ header .navbar .link-btn {
     font-size: 22px;
 }
 .txt64 {
-    font-size: 50px;
+    font-size: 40px;
+    color: #c8a16b;
 }
 .txtp {
     line-height: 1.7 !important;
@@ -337,14 +341,14 @@ header .navbar .link-btn {
 }
 .filter-button:focus,
 .filter-button.active {
-    background-color: #0874bd;
+    background-color: #c8a16b;
     border-color: #ffffff;
     color: white;
 }
 .filter-button:hover {
     color: white;
-    background-color: #0874bd;
-    border-color: #0874bd
+    background-color: #c8a16b;
+    border-color: #c8a16b
 }
 .gallery_product {
     overflow: hidden;
@@ -401,7 +405,7 @@ header .navbar .link-btn {
     margin-right: 10px;
 }
 .button-btn {
-    background-color: #0874bd;
+    background-color: #c8a16b;
     color: white;
     margin-right: 3px;
     margin-bottom: 3px;
@@ -489,7 +493,7 @@ header .navbar .link-btn {
     transition: .2s ease-in-out;
 }
 .contact section:hover {
-    background-color: #0874bd;
+    background-color: #c8a16b;
     color: #fff;
     text-decoration: none;
 }
@@ -514,7 +518,7 @@ header .navbar .link-btn {
     display: block;
 }
 .contact section a:hover {
-    border-color: #0874bd;
+    border-color: #c8a16b;
     text-decoration: none;
 }
 .attraction-section-subtitle,
@@ -580,7 +584,7 @@ header .navbar .link-btn {
     font-weight: 600 !important;
 }
 .ft-text:hover {
-    color: #0874bd;
+    color: #c8a16b;
     transform: translateY(-10px);
     text-decoration: none;
 }
@@ -607,10 +611,10 @@ header .navbar .link-btn {
     color: white;
 }
 .Navlist a:hover {
-    color: #0874bd;
+    color: #c8a16b;
 }
 .Contacts p a:hover {
-    color: #0874bd !important;
+    color: #c8a16b !important;
 }
 .Contacts {
     padding-top: 50px !important;
@@ -648,7 +652,7 @@ header .navbar .link-btn {
         padding-top: 25px;
     }
     .contact section i {
-        font-size: unset;
+        font-size: 35px !important;
     }
     .contact section a {
         font-size: 18px;
@@ -674,15 +678,14 @@ header .navbar .link-btn {
     html body main section.container div.row div.col-lg-6.align-self-center.text-center {
         margin-top: 20px;
     }
-    .attraction-menu {
-        max-width: 7rem;
-        padding-left: 1rem;
+    .attraction-menu>li>span {
+        display: none !important;
     }
     #attraction {
         padding: 0px !important;
     }
     .swiper-slide img {
-        height: 70vh;
+        height: 50vh;
     }
     .abbb {
         justify-content: center;
@@ -710,6 +713,16 @@ header .navbar .link-btn {
     }
     .txt22 {
         font-size: 18px;
+    }
+    .attraction-section-title {
+        font-size: 25px !important;
+    }
+    .noppp {
+        display: none;
+    }
+    .txt64 {
+        font-size: 34px;
+        color: #c8a16b;
     }
 }
 @media only screen and (min-width: 992px) {
