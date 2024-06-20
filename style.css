@@ -207,9 +207,7 @@ header .navbar .link-btn {
     font-size: 1.1rem;
     line-height: 1.5;
 }
-.milenia-aligner-inner {
-    padding: 20px;
-}
+.milenia-aligner-inner{padding: 20px;}
 .txt15 {
     font-size: 15px;
 }
@@ -678,9 +676,7 @@ header .navbar .link-btn {
     html body main section.container div.row div.col-lg-6.align-self-center.text-center {
         margin-top: 20px;
     }
-    .attraction-menu>li>span {
-        display: none !important;
-    }
+    .attraction-menu>li>span{display: none !important;}
     #attraction {
         padding: 0px !important;
     }
@@ -714,16 +710,13 @@ header .navbar .link-btn {
     .txt22 {
         font-size: 18px;
     }
-    .attraction-section-title {
-        font-size: 25px !important;
-    }
-    .noppp {
-        display: none;
-    }
+    .attraction-section-title{font-size: 25px !important;}
+    .noppp{display: none;}
     .txt64 {
         font-size: 34px;
         color: #c8a16b;
     }
+    
 }
 @media only screen and (min-width: 992px) {
     header .navbar {
